@@ -1,0 +1,19 @@
+花椒主站：huajiaozy.com
+花椒演示站：huajiaozy.tv
+花椒cmsz主站：huajiaocms.com
+花椒cms模板下载：http://huajiaocms.com/down.html
+花椒cms模板成品图：http://bbs.huajiaocms.com/?forum-3.htm
+其他主流影视cms采集帮助中心：http://help.apihjzy.com/#wlcome
+
+1，如何搭建使用这套程序？。
+答：本套程序对于环境要求很低，服务器只要支持PHP5.6,无需搭建数据库,解压到网站根目录,即可访问!
+
+2，网站数据安全性如何？
+答：网站数据分为两部分。一是基础数据(网站后台信息、广告模块、播放器设置、在线人数)，牵扯到站长利益的数据模块，均在站长服务器中存储管理；二是视频数据(视频、图片)均调用主站数据库，该数据为公开数据同步显示，无需操心费力，全自动同步更新！
+
+3.后台登陆后缀是多少？后台登录密码是多少？忘记登录密码怎么办？
+答：系统默认登陆链接/adminx/ 后台账户及密码默认均为HJCMS,如果忘记后台密码，可以进入HJSQL/Admin/Security/AdminUser.php，修改保存，即可找回！
+
+4.为什么我无法登录？
+答：HJCMS安全设置拥有网站后台白名单，如果因为您预设的登录IP不同，导致无法登陆后台，请进入HJSQL/Admin/Security/AdminUser.php修改授权IP。
+ 
